@@ -1,8 +1,8 @@
 terraform {
   backend "remote" {
-    organization = "<ORG_NAME>"
+    organization = "ritsok"
     workspaces {
-      name = "learn-terraform-rds-cli"
+      name = "learn-terraform-rds"
     }
   }
   required_providers {
